@@ -1,0 +1,409 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+ul.blueheader {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #72DFBC;
+}
+.headerlinks:hover{
+  border-bottom: 4px white solid;
+}
+ul.blueheader li {
+float: left;
+}
+
+ul.blueheader li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.blueheader li a.active {
+  background-color: #4CAF50;
+}
+
+ul.blueheader li.right {
+  float: right;
+  padding-right: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-size: 20px;
+  font-style: bold;
+}
+/*navbar switches to vertical */
+@media screen and (max-width: 600px){
+    ul.blueheader li.right,
+    ul.blueheader li {
+      float: none;
+    }
+}
+/*main image is blurred*/
+/*img.mainimg {
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+}*/
+
+#circleblue{
+  margin-top: -670px;
+
+}
+div#personaltitle{
+  background-color: #72DFBC;
+  height: 600px;
+  width: 600px;
+  border-radius: 50%;
+  opacity: .6;
+  margin-left: 30%;
+}
+
+#name{
+margin-top: -500px;
+margin-bottom: 500px;
+margin-left: 40%;
+  align-items: center;
+  color: white;
+  z-index:90;
+  position: absolute;
+}
+#namej{
+  font-size: 65px;
+  margin-left:-15%;
+  margin-top:20%;
+  font-style: bold;
+}
+#namef{
+  font-size: 40px;
+  margin-left: -19%;
+  margin-top: -8%;
+}
+div.parallax1 {
+    background-image: url("images/aspen-maroon-bells.jpg");
+
+    /* Set a specific height */
+    min-height: 725px;
+
+    margin: 0;
+    padding:0;
+    border: none;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /*-webkit-filter: blur(2px);
+    filter: blur(2px);*/
+}
+div.parallaxblur{
+  -webkit-filter: blur(2px);
+  filter: blur(2px);
+}
+.yearsexp{
+  display: flex;
+  columns: 2;
+  height:300px;
+  /*background-color:#F2F2F2;*/
+  /*background-color: #BDBDBD;*/
+  /*monochramatic*/
+  /*background-color: #B9E4D6;*/
+  background-color: white;
+
+  /*background-color: #4B927C;*/
+  /*background-color: #8DA1F7;*/
+  font-size:36px;
+}
+.ongoingproj{
+  align-items: center;
+  padding-left: 30%;
+  float: right;
+}
+.titleongoing{
+  float: left;
+  padding-left: 10%;
+}
+div.parallax2 {
+    display: flex;
+    columns: 2;
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    image-border:none;
+}
+div.colored{
+  width: 50%;
+  background-color: #58AC91;
+}
+div.imgcolor{
+  background-image: url("images/mywins.png");
+  float: right;
+  width: 50%;
+  height:auto;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: right;
+}
+div.obj{
+  float: right;
+  width: 50%;
+  height:auto;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: right;
+}
+document.querySelector('.hello').scrollIntoView({
+  behavior: 'smooth'
+});
+#education{
+  font-size: 45px;
+  margin-top: -8%;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: blue;
+}
+.educa{
+  font-size: 30px;
+  margin-top: 4%;
+}
+.skillscolumn{
+  columns: 3;
+  text-align: center;
+  margin-right: 4%;
+  margin-left: 2%;
+  /*break-inside: avoid-column;*/
+  break-inside: avoid;
+}
+li{
+  break-inside: avoid-column;
+}
+.projectstitle{
+  text-align: center;
+}
+#fewproj{
+  font-size: 60px;
+  color: white;
+  margin-top: 100px;
+  margin-left: 550px;
+}
+#skillstitle{
+  align: center;
+  text-align: center;
+  margin-top: 10%;
+  font-size: 40px;
+  color: white;
+  text-decoration:underline;
+}
+.projectsimg{
+  height:600px;
+  /*background-color:#F2F2F2;*/
+  background-color: #4B927C;
+  /*background-color: #8DA1F7;*/
+  font-size:36px;
+  overflow: hidden;
+  display: flex;
+  /*align-items: center;*/
+}
+.socialicons{
+  height:10%;
+  background-color: #4B927C;
+  /*background-color: #8DA1F7;*/
+  font-size:36px;
+}
+div.parallax4 {
+  background-image: url("images/union-station.jpg");
+  display: flex;
+  /*columns: 2;*/
+  min-height: 400px;
+  margin: 0;
+  padding:0;
+  border: none;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+div.parallax3 {
+  /*background-image: url("images/aspen-maroon-bells.jpg");*/
+  display: flex;
+  columns: 2;
+  min-height: 725px;
+  margin: 0;
+  padding:0;
+  border: none;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+div.projectimages{
+  display:flex;
+}
+div.projscreenshot {
+  padding-left: 1.5%;
+  text-align: center;
+  margin-top: -250px;
+}
+div.projscreenshot2 {
+  padding-left: 1.5%;
+  padding-top: 2%;
+  /*padding-bottom: 2%;*/
+  text-align: center;
+  /*margin-top: -250px;*/
+}
+.projtitle{
+  text-align: center;
+  /*text-decoration:underline;*/
+}
+.projimgsize{
+width: 500px;
+height: 300px;
+}
+div.parallax5 {
+  background-image: url("images/snow-forest-trees-winter.jpeg");
+  display: flex;
+  columns: 2;
+  min-height: 400px;
+  margin: 0;
+  padding:0;
+  border: none;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+div.descmywins{
+  width: 50%;
+  height: 460px;
+  background-color: #58AC91;
+}
+div.descmywinssite{
+  width: 50%;
+  height: 460px;
+  background-color: #58AC91;
+}
+.contactform{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-left: 5%;
+  border-radius: 2px;
+}
+#emailmebutton{
+  border: 3px #58AC91 solid;
+  background-color: #58AC91;
+  color: white;
+  opacity: .9;
+  font-size: 130%;
+  width: 50%;
+  align-items: center;
+  margin-left: 40%;
+  margin-top: 5%;
+  border-radius: 5px;
+}
+#emailmebutton:hover{
+  background-color: grey;
+}
+/*input{
+  flex-direction: row;
+}*/
+.furthercontact{
+  /*background-color: #58AC91;*/
+  background-color: white;
+}
+.socialicons{
+  background-color: #275F4D;
+}
+.somethi{
+  columns: 3;
+  height: 150px;
+  width: 100%;
+  background-color: #58AC91;
+}
+#sitemap{
+  margin-left: 5%;
+}
+#sociallinks{
+  margin-left: 33%;
+}
+i{
+  color: white;
+  align-content: center;
+  margin-left: 1.5%;
+  padding-top: 1%;
+  padding-bottom:1%;
+}
+i:hover{
+  color:#757575;
+}
+.downarrow{
+color: white;
+margin-top: -13px;
+margin-bottom: 60px;
+font-size: 80px;
+margin-left: 46.8%;
+}
+#titlecontact{
+  /*color:#58AC91;*/
+  color: #275F4D;
+  font-size: 50px;
+  margin-left: 10%;
+}
+/*snow*/
+#snow{
+	font-family: Androgyne;
+	background-image: url('http://www.wearewebstars.dk/codepen/img/s1.png'), url('http://www.wearewebstars.dk/codepen/img//s2.png'), url('http://www.wearewebstars.dk/codepen/img//s3.png');
+	height: 50%;
+	left: 0;
+	position: absolute;
+	/*top: 0;*/
+	width: 100%;
+	z-index:1;
+	-webkit-animation: snow 10s linear infinite;
+	-moz-animation: snow 10s linear infinite;
+	-ms-animation: snow 10s linear infinite;
+	animation: snow 10s linear infinite;
+}
+@keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-moz-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 400px 1000px, 200px 400px, 100px 300px;}
+}
+@-webkit-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-ms-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+footer{
+  height: 30px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #72DFBC;
+}
