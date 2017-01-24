@@ -1,6 +1,5 @@
 body{
   margin: 0;
-  padding: 0;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -123,12 +122,31 @@ div.parallaxblur{
 }
 .ongoingproj{
   align-items: center;
-  padding-left: 30%;
+  padding-left: 15%;
+  padding-right: 4%;
   float: right;
+  /*margin-top: %;*/
 }
 .titleongoing{
   float: left;
   padding-left: 10%;
+}
+#aboutmetext{
+  font-size: 45px;
+  /*margin-top: -6%;*/
+  width: 5em;
+  text-align: center;
+  text-decoration-color: blue;
+  margin-right: -30%;
+  margin-left: 10%;
+  /*border: lightgrey 3px solid;*/
+  /*padding-right: -20%;*/
+}
+#borderboxabout{
+  border: lightgrey 3px solid;
+  margin-top: 8%;
+  /*margin-left: 5%;*/
+  padding-right: 17%;
 }
 div.parallax2 {
     display: flex;
@@ -170,8 +188,7 @@ document.querySelector('.hello').scrollIntoView({
   behavior: 'smooth'
 });
 #education{
-  font-size: 45px;
-  margin-top: -8%;
+  font-size: -5% !important;
   text-align: center;
   text-decoration: underline;
   text-decoration-color: blue;
