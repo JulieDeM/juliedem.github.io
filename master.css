@@ -192,7 +192,7 @@ hr.linecolor{
 }
 #borderboxtech{
   border: lightgrey 3px solid;
-  margin-top: 8%;
+  margin-top: 25%;
   margin-left: 20%;
   /*padding-right: 17%;*/
   margin-right: 30%;
@@ -222,6 +222,15 @@ div.imgcolor{
   background-repeat: no-repeat;
   background-size: 50%;
   background-position: right;
+}
+#mywinstitle{
+  margin-left: 20%;
+  margin-right: 5%;
+  margin-top: 10%;
+}
+.mywinswords{
+  margin-left: 10%;
+  margin-right: 10%;
 }
 div.obj{
   float: right;
