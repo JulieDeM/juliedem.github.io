@@ -175,11 +175,27 @@ hr.linecolor{
   /*border: lightgrey 3px solid;*/
   /*padding-right: -20%;*/
 }
+#techtext{
+  font-size: 45px;
+  /*width: 5em;*/
+  text-align: center;
+  text-decoration-color: blue;
+  /*margin-right: -13%;*/
+  margin-left: -5%;
+
+  /*margin-left: 10%;*/
+}
 #borderboxabout{
   border: lightgrey 3px solid;
   margin-top: 8%;
-  /*margin-left: 5%;*/
   padding-right: 17%;
+}
+#borderboxtech{
+  border: lightgrey 3px solid;
+  margin-top: 8%;
+  margin-left: 20%;
+  /*padding-right: 17%;*/
+  margin-right: 30%;
 }
 div.parallax2 {
     display: flex;
@@ -234,7 +250,7 @@ document.querySelector('.hello').scrollIntoView({
   columns: 3;
   text-align: center;
   margin-right: 4%;
-  margin-left: 2%;
+  /*margin-left: 2%;*/
   /*break-inside: avoid-column;*/
   break-inside: avoid;
   margin-top: 15%;
