@@ -140,14 +140,7 @@ div.parallaxblur{
   display: flex;
   columns: 2;
   height:300px;
-  /*background-color:#F2F2F2;*/
-  /*background-color: #BDBDBD;*/
-  /*monochramatic*/
-  /*background-color: #B9E4D6;*/
   background-color: white;
-
-  /*background-color: #4B927C;*/
-  /*background-color: #8DA1F7;*/
   font-size:36px;
 }
 .ongoingproj{
@@ -155,7 +148,17 @@ div.parallaxblur{
   padding-left: 15%;
   padding-right: 4%;
   float: right;
-  /*margin-top: %;*/
+}
+.linecolor{
+  /*color: #58AC91;*/
+  /*background: #58AC91;*/
+  width: 80%;
+  margin-left: 10%;
+  color: blue;
+}
+hr.linecolor{
+  color: blue;
+  font-weight: bold;
 }
 .titleongoing{
   float: left;
@@ -191,7 +194,7 @@ div.parallax2 {
 }
 div.colored{
   width: 50%;
-  background-color: #58AC91;
+  /*background-color: #58AC91;*/
 }
 div.imgcolor{
   background-image: url("images/mywins.png");
@@ -234,6 +237,7 @@ document.querySelector('.hello').scrollIntoView({
   margin-left: 2%;
   /*break-inside: avoid-column;*/
   break-inside: avoid;
+  margin-top: 15%;
 }
 li{
   break-inside: avoid-column;
@@ -252,7 +256,7 @@ li{
   text-align: center;
   margin-top: 10%;
   font-size: 40px;
-  color: white;
+  /*color: white;*/
   text-decoration:underline;
 }
 .projectsimg{
