@@ -291,7 +291,7 @@ li{
   text-decoration:underline;
 }
 .projectsimg{
-  height:650px;
+  height:550px;
   /*height:600px;*/
   /*background-color:#F2F2F2;*/
   background-color: #4B927C;
@@ -367,6 +367,13 @@ div.projscreenshot2 {
   text-align: center;
   /*text-decoration:underline;*/
 }
+.projtitle2{
+  font-size: 35px;
+  size: bold;
+}
+.projdesc{
+  font-size: 18px;
+}
 .projimgsize{
 width: 500px;
 height: 300px;
@@ -434,7 +441,7 @@ div.descmywinssite{
   /*color: white;*/
   opacity: .9;
   margin-bottom: 2%;
-  font-size: 15px; 
+  font-size: 15px;
 }
 /*input{
   flex-direction: row;
