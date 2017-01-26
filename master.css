@@ -404,6 +404,7 @@ div.descmywinssite{
   margin-left: 20%;
   margin-right: 10%;
   border-radius: 2px;
+  margin-top: -1%;
 }
 #contactmehr{
   width: 28%;
@@ -428,8 +429,12 @@ div.descmywinssite{
   background-color: grey;
 }
 .textemail{
-  height: 4%;
-
+  height: 30px;
+  /*background-color: #58AC91;*/
+  /*color: white;*/
+  opacity: .9;
+  margin-bottom: 2%;
+  font-size: 15px; 
 }
 /*input{
   flex-direction: row;
