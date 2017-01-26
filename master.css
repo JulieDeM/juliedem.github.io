@@ -399,8 +399,17 @@ div.descmywinssite{
   display: flex;
   flex-direction: column;
   width: 60%;
-  margin-left: 5%;
+  height: 15%;
+  margin-left: 20%;
+  margin-right: 10%;
   border-radius: 2px;
+}
+#contactmehr{
+  width: 28%;
+  border: 3px solid grey;
+  margin-left: 35%;
+  margin-top: -3%;
+  margin-bottom: 5%;
 }
 #emailmebutton{
   border: 3px #58AC91 solid;
@@ -410,12 +419,16 @@ div.descmywinssite{
   font-size: 130%;
   width: 50%;
   align-items: center;
-  margin-left: 40%;
+  margin-left: 23.5%;
   margin-top: 5%;
   border-radius: 25px;
 }
 #emailmebutton:hover{
   background-color: grey;
+}
+.textemail{
+  height: 4%;
+
 }
 /*input{
   flex-direction: row;
