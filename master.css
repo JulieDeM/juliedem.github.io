@@ -483,7 +483,7 @@ margin-left: 46.8%;
 #snow{
 	font-family: Androgyne;
 	background-image: url('http://www.wearewebstars.dk/codepen/img/s1.png'), url('http://www.wearewebstars.dk/codepen/img//s2.png'), url('http://www.wearewebstars.dk/codepen/img//s3.png');
-	height: 50%;
+	height: 41%;
 	left: 0;
 	position: absolute;
 	/*top: 0;*/
@@ -521,4 +521,5 @@ footer{
   padding: 0;
   overflow: hidden;
   background-color: #72DFBC;
+  z-index: 90;
 }
