@@ -383,6 +383,7 @@ div.parallax5 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  overflow: hidden;
 }
 div.descmywins{
   width: 50%;
