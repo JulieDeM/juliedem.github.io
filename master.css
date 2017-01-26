@@ -373,6 +373,8 @@ div.projscreenshot2 {
 }
 .projdesc{
   font-size: 18px;
+  padding-left: 3%;
+  padding-right:3%;
 }
 .projimgsize{
 width: 500px;
