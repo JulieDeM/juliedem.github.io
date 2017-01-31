@@ -275,12 +275,15 @@ li{
 }
 .projectstitle{
   text-align: center;
+  width: 100%;
 }
 #fewproj{
   font-size: 60px;
   color: white;
-  margin-top: 100px;
-  margin-left: 550px;
+  margin-top: 110px;
+  /*margin-left: 550px;*/
+  /*margin-left: 5%;*/
+
 }
 #skillstitle{
   align: center;
