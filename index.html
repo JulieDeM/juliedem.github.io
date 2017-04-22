@@ -215,11 +215,9 @@
       <br>Please reach out, I would love to work with you!</div> -->
       <div class=""></div>
       <div class="">
-        <span id="">
+        <!-- <span id="">
           <form method="post" action="https://formspree.io/juliedemastersdeveloper@gmail.com">
             <input class="textemail" type="text" id="nameField" name="Your Name" placeholder="Enter Your Name">
-            <!-- <textarea type="text" name="Your E-Mail " placeholder="Please Let Me know"> </textarea> -->
-            <!-- <input class="textemail" type="comment" name="Your Email" value="" placeholder="Enter Your Message"> -->
             <input type="text" name="" id="subjectField" value="">
             <input type="text" id="message" name="" value="">
             <input class="textemail" id="emailField" type="comment" name="_replyto" value="" placeholder="Enter Your Message">
@@ -227,18 +225,41 @@
           </form>
             <div id="form-messages"></div>
         </span>
-        </span>
+        </span> -->
+        <div class="row">
+                <h2 class="section-heading text-center">Send a Message</h2>
+                </div>
+                <form action="https://script.google.com/macros/s/AKfycbxFcU1RgEVZmshacOs3nwzIctAOwJ2zZ6pnsK0HrpfHPm6f-PVH/exec" id="gform" method="post">
+                  <div id="frmContact">
+                    <div id="mail-status"></div>
+                    <div class="form-group row">
+                      <span id="nameField-info" class="info"></span><br/>
+                      <input type="text" class="form-control" id="nameField" name="name" placeholder="Full Name">
+                    </div>
+                    <div class="form-group row">
+                      <span id="emailField-info" class="info"></span><br/>
+                      <input type="text" class="form-control" id="emailField" name="email" placeholder="E-mail">
+                    </div>
+                    <div class="form-group row">
+                      <span id="subjectField-info" class="info"></span><br/>
+                      <input type="text" class="form-control" id="subjectField" name="subject" placeholder="Subject">
+                    </div>
+                    <div class="form-group row">
+                      <span id="message-info" class="info"></span><br/>
+                      <textarea name="message" id="message" class="form-control" rows="3" rows="6" placeholder="Message"></textarea>
+                    </div>
+                    <div class="form-group row">
+                      <button id="submit" class="btn btn-primary" onClick="sendContact();">Send</button>
+                    </div>
+                  </div>
+              </form>
+              <div style="display:none;" id="thankyou_message">
+                <h2>Thank you for contacting me! <br> I will get back to you shortly!</h2>
+              </div>
+        </div>
       </div>
 
     </div>
-    <!-- <div class="furthercontact">
-      here i go i will have some thing there
-    </div> -->
-    <!-- <div class="somethi">
-      <span id="sitemap">
-      something
-      </span>
-    </div> -->
 
     <div class="footer">
     </div>
