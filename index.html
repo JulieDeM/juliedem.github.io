@@ -1,938 +1,269 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="SAGE Black delivers the highest quality, customer centric IT services and products attainable through the development of the highest quality, value-focused products, services and professionals on the planet.">
-    <meta name="keywords" content="SAGE Black, SAGE Black consulting, IT services, All things data">
-    <meta name="author" content="SAGE Black">
-    <meta name="robots" content="index,follow">
-    <meta property="og:locale" content="en_US">
-    <meta property="og:url" content="http://www.sageblack.com/">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Julie DeMasters">
+    <meta name="description" content="Full Stack Software Developer in greater Denver area.">
+    <link rel="shortcut icon" href="images/JulieDeMasters.ico"/>
 
-    <title>SAGE Black - Reimagined</title>
+    <title>Julie DeMasters | Full Stack Developer</title>
 
-    <!-- favicon icon -->
-    <link rel="shortcut icon" href="//www.sageblack.com/wp-content/uploads/2015/07/favicon.jpg" type="image/x-icon">
-    <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
-        rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic'
-            rel='stylesheet' type='text/css'>
+    <!-- Bootstrap core CSS -->
+    <!-- <link href="../../../../dist/css/bootstrap.min.css" rel="stylesheet"> -->
+    <script src="https://use.fontawesome.com/21c239b2a4.js"></script>
 
-            <!-- Plugin CSS -->
-            <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
-            <!-- <link href="vendor/iHover/ihover.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-            <!-- Theme CSS -->
-            <link href="css/creative.css" rel="stylesheet">
 
-            <!-- SAGE Black CSS -->
-            <link href="css/sageblack.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="master.css" rel="stylesheet">
+  </head>
 
-            <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-            <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-            <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    <!-- form scripts -->
-    <script src="jquery.form.min.js"></script> -->
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js" type="text/javascript"></script>
-    <script src="js/app.js"></script>
-    <!-- links for icons -->
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-    <!-- google analytics -->
-    <script src="js/google-analytics.js"></script>
-
-</head>
-
-<body id="page-top">
-
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top" min-height="120px">
-  <div class="container-fluid bg-white">
-
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-
-        <a  href="#page-top"><img src="img/portfolio/fullsize/sageblackcropped.jpg"  alt="SAGE Black logo" id="sage-black-logo-nav"></a>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right navbar-text" color: "black">
-            <li>
-                <a class="page-scroll" href="#about">About</a>
-            </li>
-            <li>
-                <a class="page-scroll" href="#services">Services</a>
-            </li>
-            <li>
-                <a class="page-scroll" href="#growth">Growth Initiatives</a>
-            </li>
-            <li>
-                <a class="page-scroll" href="#history">History</a>
-            </li>
-            <li>
-                <a class="page-scroll" href="#leadership">Leadership Team</a>
-            </li>
-            <li>
-                <a class="page-scroll" href="#openings">Current Openings</a>
-            </li>
-            <li>
-                <a class="page-scroll" href="#benefits">Team Member Benefits</a>
-            </li>
-            <li>
-                <a class="page-scroll" href="#sbu">SAGE Black University</a>
-            </li>
-            <li>
-                <a class="page-scroll contactmenu" href="#contact">Contact</a>
-            </li>
-        </ul>
-    </div>
-    <!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-    </nav>
+  <body>
 
     <header>
-
-        <!-- INTRO VIDEO -->
-        <div class="fullscreen-bg">
-            <video id="introVideo" muted autoplay poster="img/portfolio/fullsize/homepageimage.jpg" class="fullscreen-bg__video" alt="Mountains video">
-                <source src="img/portfolio/fullsize/introduction.mp4" type="video/mp4">
-            </video>
-        </div>
-
-        <!-- SAGE BLACK AND MANTRA-->
-        <div class="header-content">
-            <div class="header-content-inner">
-                <!-- <h1 id="homeHeading">SAGE Black</h1> -->
-                <h1 style="color:black; "><b>All Things Data</b></h1>
-                <hr class="hr-green">
-               <!-- <h2 style="color:black"><span id="fadeIn1" ><b>To Serve Our Customers.</b></span><span id="fadeIn2" ><b> To Develop Our Team.</b></span><span id="fadeIn3" ><b> Built to Deliver.</b></span></h3>  -->
-                <!-- <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a> -->
+      <div class="collapse bg-dark" id="navbarHeader">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-md-7 py-4">
+              <h4 class="text-white">About</h4>
+              <p class="text-muted">Experience in JavaScript, D3.js, JavaScript, ReactJS, and Vue.js.</p>
             </div>
-            <div class="row">
-              <!--  <div class="col-lg-1 "></div> -->
-                <div class="col-lg-3 col-lg-offset-15 text-right" id="fadeIn1">
-                    <h3 style="color:black"><b>Serve our Customers.</b></h3>
-                </div>
-                <div class="col-lg-3 text-center" id="fadeIn2">
-                    <h3 style="color:black"><b>Develop our Team.</b></h3>
-                </div>
-                <div class="col-lg-3  text-left" id="fadeIn3">
-                    <h3 style="color:black"><b>Built to Deliver.</b></h3>
-                </div>
-               <!-- <div class="col-lg-1 "></div> -->
+            <div class="col-sm-4 offset-md-1 py-4">
+              <h4 class="text-white">Contact</h4>
+              <ul class="list-unstyled">
+                <li><a href="#" class="text-white">GitHub</a></li>
+                <li><a href="#" class="text-white">LinkedIn</a></li>
+                <li><a href="#" class="text-white">Email me</a></li>
+              </ul>
             </div>
+          </div>
         </div>
+      </div>
+      <div class="navbar navbar-dark bg-dark box-shadow">
+        <div class="container d-flex justify-content-between">
+          <a href="#" class="navbar-brand d-flex align-items-center">
+            <img src="JulieDeMasters.ico" style="width:70px; height:70px;" />
+            <strong> Julie DeMasters</strong>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
     </header>
 
-    <!-- ABOUT SECTION -->
-    <section id="about" class="bg-white">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">About Us</h2>
-                    <hr class="hr-green">
-                </div>
-            </div>
+    <main role="main">
+
+      <section class="jumbotron text-center" style="background-image:url(aspen-maroon-bells.jpg); background-position: center; ">
+        <div class="container" style='background-color: #4B927C; opactiy:.3; border-radius: 10%;' >
+          <h1 class="jumbotron-heading" style="color: white;">Julie DeMasters</h1>
+          <p class="lead text-muted" style="color: white !important;">Full Stack Web Developer with experience in JavaScript, HTML5, CSS3, API integration, PostgreSQL, Knex.js, Express, AngularJS, Heroku, and Firebase. Eager to learn new languages and technologies, with demonstrated ability to do so on a tight timeline.   <br> <br>
+            Over 3+ years in the technology industry with experience in Agile workflow, UI/UX research and insight, and A/B testing.</p>
+          <p>
+            <a target="_blank" href="https://goo.gl/gFR5ij" class="btn btn-primary my-2">Resume</a>
+            <a target="_blank" href="https://www.linkedin.com/in/juliedemasters" class="btn btn-primary my-2">LinkedIn</a>
+            <a target="_blank" href="https://github.com/JulieDeM" class="btn btn-secondary my-2">GitHub</a>
+          </p>
         </div>
+      </section>
+
+      <div class="album py-5 bg-light">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-6 text-center">
-                    <div class="service-box">
-                        <img src="img/portfolio/fullsize/working.jpeg" style="width:304px;height:228px;" alt="Mission">
-                        <!-- <img src="img/portfolio/fullsize/mission.jpg" style="width:304px;height:228px;" alt="Rocketship"> -->
-                        <h3>Mission</h3>
-                        <p class="text-muted">SAGE Black delivers excellent software solutions through consulting services & products.
-                        <br>•	To our customers, we begin by understanding their needs and requirements and delivering the services and products to meet those needs and requirements.
-                        <br>•	To our employees, we hire based on Talent, Skill & Attitude and then invest in their growth through creative avenues like SAGE Black University, our in-house education initiative.</p>
-                            <!-- <br>
-                            <a href="#" data-toggle="modal" data-target="#mission" class="viewbiolink"><small class="member">View More</small></a> -->
-                    </div>
-                </div>
-
-                <!-- Mission Modal -->
-                <div class="modal fade" id="mission" tabindex="-1" role="dialog" aria-labelledby="myModal" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                <figure style="float:left; margin-right:5%; margin-top:2%; margin-bottom:.8%;">
-                                    <img src="img/portfolio/fullsize/working.jpeg" alt="Holly Patton" style="width:30%;"/>
-                                    <!-- <img src="img/portfolio/fullsize/mission.jpg" alt="Holly Patton" style="width:30%;"/> -->
-                                </figure>
-                                <h3 class="modal-title myModalLabel">Mission</h3>
-                            </div>
-                            <div class="modal-body">
-                                <p class="modal-body-text" style="text-align:left;"><br>•	To our customers, we begin by understanding their needs and requirements and delivering the services and products to meet those needs and requirements.
-                                <br>•	To our employees, we hire based on Talent, Skill & Attitude and then invest in their growth through creative avenues like SAGE Black University, our in-house education initiative.</p>
-                            </div>
-                            <div class="modal-footer">
-                                <img src="img/portfolio/fullsize/sageblackmodalfooter.jpg" align="middle">
-                            </div>
-                        </div><!--/modal-content-->
-                    </div><!--modal-dialog-->
-                </div><!--/modal-->
-                <div class="col-lg-4 col-md-6 text-center">
-                    <div class="service-box">
-                        <img src="img/portfolio/fullsize/vision-2.jpeg" style="width:304px;height:228px;" alt="Eyeglasses">
-                        <h3>Vision</h3>
-                        <p class="text-muted">We deliver products and services that fulfil the needs of our customers.  We do this with our team as a team.  We have some of the best minds, talent and hearts on the planet and we love creating solutions and solving challenges for our customers.
-                        <br>•	Our ultimate goal, however, is to secure what is most important in the lives of those we support. It is the “Why?” that counts.  We do what we do for our Country, Families and the Security and Freedoms we all enjoy</p>
-                        <!-- <br>
-                        <a href="#" data-toggle="modal" data-target="#vision" class="viewbiolink"><small class="member">View More</small></a> -->
-                    </div>
-                </div>
-                <!-- Vision Modal -->
-                <div class="modal fade" id="vision" tabindex="-1" role="dialog" aria-labelledby="myModal" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                <figure style="float:left; margin-right:5%; margin-top:2%; margin-bottom:.8%;">
-                                    <img src="img/portfolio/fullsize/vision-2.jpeg" alt="Vision" style="width:30%;"/>
-                                </figure>
-                                <h3 class="modal-title myModalLabel">Mission</h3>
-                            </div>
-                            <div class="modal-body">
-                                <p class="modal-body-text" style="text-align:left;">•	Our ultimate goal, however, is to secure what is most important in the lives of those we support. It is the “Why?” that counts.  We do what we do for our Country, Families and the Security and Freedoms we all enjoy</p>
-                            </div>
-                            <div class="modal-footer">
-                                <img src="img/portfolio/fullsize/sageblackmodalfooter.jpg" align="middle">
-                            </div>
-                        </div><!--/modal-content-->
-                    </div><!--modal-dialog-->
-                </div><!--/modal-->
-                <div class="col-lg-4 col-md-6 text-center">
-                    <div class="service-box">
-                        <img src="img/portfolio/fullsize/culture.jpg" style="width:304px;height:228px;" alt="Team meeting">
-                        <h3>Culture</h3>
-                        <p class="text-muted">We care about what we do and who we work with. Our people are committed to developing excellent careers while maintaining a quality work/life balance. We attract a broad spectrum of teammates who want to work in the SAGE Black model. Our consultants are looking for a place to work, but also to grow personally, technically and professionally. We are here to make a living, yes, but also to make a life.</p>
-                        <!-- <br>
-                        <a href="#" data-toggle="modal" data-target="#culture" class="viewbiolink"><small class="member">View More</small></a> -->
-                    </div>
-                </div>
-                <!-- Culture Modal -->
-                <div class="modal fade" id="culture" tabindex="-1" role="dialog" aria-labelledby="myModal" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                <figure style="float:left; margin-right:5%; margin-top:2%; margin-bottom:.8%;">
-                                    <img src="img/portfolio/fullsize/culture.jpg" alt="Company Culture" style="width:30%;"/>
-                                </figure>
-                                <h3 class="modal-title myModalLabel">Culture</h3>
-                            </div>
-                            <div class="modal-body">
-                                <p class="modal-body-text" style="text-align:left;">• We care about what we do and who we work with. Our people are committed to developing excellent careers while maintaining a quality work/life balance. We attract a broad spectrum of teammates who want to work in the SAGE Black model. Our consultants are looking for a place to work, but also to grow personally, technically and professionally. We are here to make a living, yes, but also to make a life.</p>
-                            </div>
-                            <div class="modal-footer">
-                                <img src="img/portfolio/fullsize/sageblackmodalfooter.jpg" align="middle">
-                            </div>
-                        </div><!--/modal-content-->
-                    </div><!--modal-dialog-->
-                </div><!--/modal-->
-            </div>
-        </div>
-    </section>
-
-    <!-- DATA CENTRIC SECTION -->
-    <section class="bg-charcoal" id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-        <img src="img/portfolio/fullsize/data.jpg" id="big-data-img" alt="Big data">
-                </div>
-                <div class="col-lg-5 col-lg-offset-1 text-left">
-                    <h2 class="section-heading text-faded text-center">Data Centric Services</h2>
-                    <hr class="hr-green">
-                    <p class="text-faded">SAGE Black provides a wide range of data centric services from data architecture and database design
-                        to software development and architecture implementations.</p>
-                    <p class="text-faded"><b>Our specialty is designing, building and deploying large information solutions:</b></p>
-                    <div class="data-circles">
-                      <span id="cloud-circle"><i class="fa fa-cloud fa-lg" aria-hidden="true"></i></span> &nbsp;&nbsp;&nbsp;&nbsp;<p style="color: white;">Cloud Computing <br>Services</p>
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                      <span id="cloud-circle"><i class="material-icons">devices</i></span> &nbsp;&nbsp;&nbsp;&nbsp;<p style="color: white;">Web Development</p>
-                    </div>
-                    <div class="data-circles">
-                      <span id="cloud-circle"><i class="material-icons">security</i></span> &nbsp;&nbsp;&nbsp; <p style="color: white;">Multi-Level <br> Security Support</p>
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                      <span id="cloud-circle"><i class="fa fa-graduation-cap fa-lg" aria-hidden="true"></i></span> &nbsp;&nbsp;&nbsp; <p style="color: white;">Technical and <br>Leadership Training</p>
-                    </div>
-                    <div class="data-circles" style="text-align: center;">
-                      <span id="cloud-circle"><i class="fa fa-folder-o fa-lg" aria-hidden="true"></i></span> &nbsp;&nbsp;&nbsp;<p style="color: white; text-align:left;">Project leadership</p>
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                      <span id="cloud-circle"><i class="fa fa-users fa-lg" aria-hidden="true"></i></span> &nbsp;&nbsp;&nbsp;<p style="color: white; text-align:left;">Talented, Qualified and <br> Highly Motivated People</p>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-        <!-- GROWTH INITIATIVES SECTION -->
-    <section class="bg-lightcharcoal" id="growth">
-      <!-- </div> -->
-        <div class="container" id="growth-container" style="background-color:white; color:black; z-index:10;">
-            <div class="row">
-
-                <!-- <div class="col-lg-5 col-lg-offset-1 text-left"> -->
-                <div class="text-left growth-initiatives">
-                    <h2 class="section-heading text-growth text-center growth-text">Our Growth Initiatives</h2>
-                    <!-- <h2 class="section-heading text-faded text-center" class="growth-text">Our Growth Initiatives</h2> -->
-                    <hr class="hr-green">
-                    <p class="growth-text">SAGE Black is constantly looking at the market and determining where business needs are going unmet or
-                        expanding at a rate that we could add significant value. If the need involves data, we want to be
-                        the masters at addressing that need.</p>
-                    <!-- <p class="text-faded" class="growth-text">SAGE Black is constantly looking at the market and determining where business needs are going unmet or
-                        expanding at a rate that we could add significant value. If the need involves data, we want to be
-                        the masters at addressing that need.</p> -->
-                    <p  class="growth-text"><b>Our current growth initiatives include:</b></p>
-                    <ul class="growth-text2">
-                        <li>Continuing focus on delivery while expanding to commercial environments where we provide unique value</li>
-                        <li>Developing and delivering talent across the spectrum of software and database technologies</li>
-                        <li>Cyber awareness and capabilities – hardware &amp; software</li>
-                        <li>Tech Enabled Services through Value Added Resellers and in-house products</li>
-                        <li>Continuous Integration (CI) and DevOps strategic delivery</li>
-                        <li>Oracle based technology provider</li>
-                        <li>Agile delivery process and methodology</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- HISTORY SECTION -->
-    <section class="bg-dark" id="history">
-
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <img src="img/portfolio/fullsize/sageconsole.jpeg" id="sage-console-img"  alt="Sage console circa 1968">
-                    <figcaption class="text-center"><h5>Semi-Automatic Ground Environment (SAGE) Console ca. 1968</h5></figcaption>
-                </div>
-                <div class="col-lg-6 text-left">
-                    <h2 class="section-heading text-center">Our History</h2>
-                    <hr class="hr-green">
-                    <p class="text-faded">SAGE Black was created in 2005 to provide high quality, customer centric IT consulting & contracting
-                        servicesto Top Secret, Sensitive Compartmented Information (TS/SCI) programs in the Intelligence
-                        Community (IC).</p>
-                    <p class="text-faded">The founders believed they could improve the model for delivering resources to TS/SCI these programs,
-                        and this new model would provide a significant opportunity to deliver a continuous pipeline of highly
-                        talented, highly skilled and highly motivated consultants. These consultants possess the talent,
-                        skills and attitude to deliver with any tool in any domain and understand that the reason they are
-                        engaged on any project is that they deliver value to their customer.</p>
-                    <p class="text-faded">The SAGE Black delivery capabilities have evolved and expanded from where we began with Oracle centric
-                        services delivery, and have grown to deliver a broader range of services including Java, web development
-                        and large datastore delivery in governmental and commercial markets.</p>
-                    <p class="text-faded">One thing has not changed and that is the focus on and understanding of our customer’s needs and developing
-                        people and products to meet those needs.</p>
-                        <br>
-                        <a href="#" data-toggle="modal" data-target="#historys" class="viewbiolink"><small class="member" style="text-decoration:underline;">View More</small></a>
-                </div>
-    <!-- History Modal -->
-    <div class="modal fade" id="historys" tabindex="-1" role="dialog" aria-labelledby="myModal" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <figure style="float:left; margin-right:5%; margin-top:2%; margin-bottom:.8%;">
-              <img src="img/portfolio/fullsize/history-img.png" alt="History" style="width:30%;"/><br>
-              <p style="color:black;margin-bottom:-3%;margin-top:1%;">“The largest computer ever built” <br> <span style="margin-left:5%; margin-right:5%;">The SAGE System - <br> Semi-Automatic Ground Environment.  Pictured is one of numerous hardened sites located across the United States.</span></p>
-            </figure>
-            <h3 class="modal-title myModalLabel">History</h3>
-          </div>
-          <div class="modal-body">
-            <p class="modal-body-text" style="text-align:left; color: black;"><br><br>
-            The company’s name reflects the technology, inspiration, ambition and audacity of the SAGE System built by the US Department of Defense during the Cold War to solve a large scale data fusion problem.<br><br>Black represents the company’s commitment to classified programs and support of U.S. national security.</p>
-          </div>
-          <div class="modal-footer">
-            <img src="img/portfolio/fullsize/sageblackmodalfooter.jpg" align="middle">
-          </div>
-        </div><!--/modal-content-->
-      </div><!--modal-dialog-->
-    </div><!--/modal-->
-  </div>
-  </div>
-</div>
-</div>
-    </section>
-
-    <!-- LEADERSHIP TEAM SECTION -->
-    <section id="leadership" class="bg-white">
-        <div class="container">
-        </div>
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2 class="section-heading">SAGE Black Leadership Team</h2>
-                <hr class="hr-green">
-            </div>
-        </div>
-        </div>
-        <div class="container">
-            <div class="row" style="align-content:center;">
-
-                <!-- PAUL PATTON -->
-                <div class="col-lg-5 col-md-6 text-center center-block" style="align-items:center; margin-left:10%;" id="paulp">
-                    <div class="ih-item image-hover img-opacity square colored effect11 left_to_right center-class tocenter ">
-                        <img src="img/portfolio/fullsize/LeadersipWebsitePics/PaulFormal.jpg" alt="Paul Patton" class="img-1 img-responsive"/>
-                    </div>
-                    <h4 class="text-center">Paul Patton<br>
-                        <small class="member">Founder and President</small><br>
-                        <a href data-toggle="modal" data-target="#paulModal" class="viewbiolink"><small class="member">View Paul's Bio and Contact Information</small></a>
-                    </h4>
-                </div>
-                <!-- Paul Modal -->
-                <div class="modal fade" id="paulModal" tabindex="-1" role="dialog" aria-labelledby="myModal" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                <figure style="float:left; margin-right:5%; margin-top:2%; margin-bottom:.8%;">
-                                    <img src="img/portfolio/fullsize/LeadersipWebsitePics/PaulCasual.jpg" alt="Paul Patton" style="width:30%;" alt="Paul Patton" />
-                                </figure>
-                                <h3 class="modal-title myModalLabel">Paul Patton</h3> <small>Founder and President</small>
-                                <br>
-                                <a href="mailto:paul@sageblack.com"><small class="member">Send Paul an E-Mail</small></a>
-                            </div>
-                            <div class="modal-body">
-                                <p class="modal-body-text" style="text-align:left;">Paul is the Founder and President of SAGE Black. He coordinates and contributes to all aspects
-
-of the business from business strategy and customer engagement to team growth and
-
-development. He is passionate about our team, our customers and our country we serve.
-
-<br><br>Paul’s entrepreneurial yet conservative business approach, passion to develop high performance teams and his years of consulting experience including 17 years at Oracle, USA provided a foundation to start SAGE Black. His simple approach is to build a business where
-excellent people can do excellent work. SAGE Black’s ability to attract excellent team members has established SAGE Black as a trusted service provider with top quality talent and services and an attitude that creates a win-win- win for their clients, team and company.<br><br>A dedicated husband, father and grandfather, Paul loves his family. He grew up in a small town in Oklahoma, graduated with a B. S. in Mechanical Engineering from OU (Go Sooners!) and married the love of his life, Holly. He works hard to live a life founded on his faith and values.</p>
-                            </div>
-                            <div class="modal-footer">
-                                <a href="https://www.linkedin.com/pub/paul-patton/9/572/429" target="_blank"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true" style="float:left; margin-top:2%;"></i>                                   </a>
-                                <img src="img/portfolio/fullsize/sageblackmodalfooter.jpg" align="middle">
-                            </div>
-                        </div><!--/modal-content-->
-                    </div><!--modal-dialog-->
-                </div><!--/modal-->
-
-                <!-- HOLLY PATTON -->
-                <div class="col-lg-5 col-md-6 text-center">
-                    <div class="ih-item image-hover img-opacity square colored effect11 left_to_right ">
-                        <img src="img/portfolio/fullsize/LeadersipWebsitePics/HollyFormal.jpg" alt="Holly Patton" class="img-1 img-responsive" />
-                    </div>
-                    <h4 class="text-center">Holly Patton<br>
-                        <small class="member">Vice President of Operations</small><br>
-                        <a href="#" data-toggle="modal" data-target="#hollyModal" class="viewbiolink"><small class="member">View Holly's Bio and Contact Information</small></a>
-                    </h4>
-                </div>
-                <!-- Holly Modal -->
-                <div class="modal fade" id="hollyModal" tabindex="-1" role="dialog" aria-labelledby="myModal" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                <figure style="float:left; margin-right:5%; margin-top:2%; margin-bottom:.8%;">
-                                    <img src="img/portfolio/fullsize/LeadersipWebsitePics/HollyCasual.jpg" alt="Holly Patton" style="width:30%;" />
-                                </figure>
-                                <h3 class="modal-title myModalLabel">Holly Patton</h3> <small>Vice President of Operations</small><br>
-                                <a href="mailto:hollyp@sageblack.com"><small class="member">Send Holly an E-Mail</small></a>
-                            </div>
-                            <div class="modal-body">
-                                <p class="modal-body-text" style="text-align:left;">Holly is the Vice President of SAGE Black, delivering high value procedures by managing all financial, accounting and employee operations and is responsible for governmental compliance and reporting. <br><br>Prior to SAGE Black, Holly excelled as a CPA with a background of 20+ years in public accounting, including experience in auditing engagements, corporate, partnership and individual taxation services and accounting system consulting.<br><br>Holly is a tennis enthusiast, and enjoys spending time in the Colorado outdoors hiking and skiing. She is a dedicated wife, mother and grandmother who loves spending family time with her young adult children and her new grandson.</p>
-                            </div>
-                            <div class="modal-footer">
-                                <img src="img/portfolio/fullsize/sageblackmodalfooter.jpg" align="middle">
-                            </div>
-                        </div><!--/modal-content-->
-                    </div><!--modal-dialog-->
-                </div><!--/modal-->
-
-                  <!-- modal removed here -->
-        <!-- SECOND ROW OF TEAM SECTION -->
-<br>
-        <div class="container">
-            <div class="row">
-
-
-
-                <!-- SEAN DOUGHERTY -->
-                <div class="col-lg-4 col-md-6 text-center">
-                    <div class="ih-item image-hover img-opacity square colored effect11 left_to_right ">
-                        <img src="img/portfolio/fullsize/LeadersipWebsitePics/SeanFormal.jpg" alt="Sean Dougherty" class="img-1 img-responsive" />
-                    </div>
-                    <h4 class="text-center">Sean Dougherty<br>
-                        <small class="member">Director of Talent Management & Client Engagement</small><br>
-                        <a href="#" data-toggle="modal" data-target="#seanModal" class="viewbiolink"><small class="member">View Sean's Bio and Contact Information</small></a>
-                    </h4>
-                </div>
-                <!-- Sean Modal -->
-                <div class="modal fade" id="seanModal" tabindex="-1" role="dialog" aria-labelledby="myModal" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                <figure style="float:left; margin-right:5%; margin-top:2%; margin-bottom:.8%;">
-                                    <img src="img/portfolio/fullsize/LeadersipWebsitePics/SeanCasual.jpg" alt="Sean Dougherty" style="width:30%;" />
-                                </figure>
-                                <h3 class="modal-title myModalLabel">Sean Dougherty</h3> <small>Director of Talent Management & Client Engagement</small><br>
-                                <a href="mailto:sean.dougherty@sageblack.com"><small class="member">Send Sean an E-Mail</small></a>
-                            </div>
-                            <div class="modal-body">
-                                <p class="modal-body-text" style="text-align:left;">Sean supports the collection of customer talent requirements and from that, manages the sustainable growth of SAGE Black by identifying, assessing and hiring superb engineers.<br><br>His expertise spans the entire talent management lifecycle, with extensive experience in sourcing, screening and selling opportunities to candidates to successfully hit aggressive hiring targets. He leverages his recruiting efforts and hiring metrics background to incorporate cultural, process, training and technology considerations when framing and realizing solutions. <br><br>During his free time, Sean enjoys spending time in the mountains with his wife Kelly and boys Dane and Maddox.</p>
-                            </div>
-                            <div class="modal-footer">
-                                <a href="https://www.linkedin.com/pub/sean-dougherty/11/860/1b0" target="_blank"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true" style="float:left; margin-top:2%; margin-left: 0.5%;"></i>                                   </a>
-                                <img src="img/portfolio/fullsize/sageblackmodalfooter.jpg" align="middle">
-                            </div>
-                        </div><!--/modal-content-->
-                    </div><!--modal-dialog-->
-                </div><!--/modal-->
-
-                <!-- PATRICK BALDWIN -->
-                <div class="col-lg-4 col-md-6 text-center">
-                    <div class="ih-item image-hover img-opacity square colored effect11 left_to_right ">
-                        <img src="img/portfolio/fullsize/LeadersipWebsitePics/PatrickFormal.jpg" alt="Patrick Baldwin" class="img-1 img-responsive" />
-                    </div>
-                    <h4 class="text-center">Patrick Baldwin<br>
-                        <small class="member">Director of SAGE Black University</small><br>
-                        <a href data-toggle="modal" data-target="#patrickModal" class="viewbiolink"><small class="member">View Patrick's Bio and Contact Information</small></a>
-                    </h4>
-                </div>
-                <!-- Patrick Modal -->
-                <div class="modal fade" id="patrickModal" tabindex="-1" role="dialog" aria-labelledby="myModal" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                <figure style="float:left; margin-right:5%; margin-top:2%; margin-bottom:.8%;">
-                                    <img src="img/portfolio/fullsize/LeadersipWebsitePics/PatrickCasual.jpg" alt="Patrick Baldwin" style="width:30%;" />
-                                </figure>
-                                <h3 class="modal-title myModalLabel">Patrick Baldwin</h3> <small>Director of SAGE Black University</small>
-                                <br>
-                                <a href="mailto:patrick.baldwin@sageblack.com"><small class="member">Send Patrick an E-Mail</small></a>
-                            </div>
-                            <div class="modal-body">
-                                <p class="modal-body-text" style="text-align:left;">Patrick combines SAGE Black’s vision and team capabilities with our customers’ vision and
-                                    requirements to create and execute a comprehensive training and personnel development
-                                    platform for the SAGE Black team members.</p>
-                                <p style="text-align:left;">Patrick is a former Air Force Communications Officer, bringing 29 years of knowledge across
-                                    a wide spectrum of leadership and technical experiences to the SAGE Black Team. He spent
-                                    the last 5 years of his military career teaching at the United States Air Force Academy.</p>
-                                <p style="text-align:left;">He is married and has three children. On his down time, Patrick enjoys photography, computers,
-                                    motorcycles, traveling and watching his kids compete in sports.</p>
-                            </div>
-                            <div class="modal-footer">
-                                <a href="https://www.linkedin.com/in/patrickdbaldwin" target="_blank"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true" style="float:left; margin-top:2%; margin-left: 0.5%;"></i>                                    </a>
-                                <img src="img/portfolio/fullsize/sageblackmodalfooter.jpg" align="middle">
-                            </div>
-                        </div><!--/modal-content-->
-                    </div><!--modal-dialog-->
-                </div><!--/modal-->
-
-                                <!-- BREA EDSON -->
-                <div class="col-lg-4 col-md-6 text-center">
-                    <div class="ih-item image-hover img-opacity square colored effect11 left_to_right ">
-                        <img src="img/portfolio/fullsize/LeadersipWebsitePics/BreaFormal.jpg" alt="Brea Edson" class="img-1 img-responsive" />
-                    </div>
-                    <h4 class="text-center">Brea Edson<br>
-                        <small class="member">Executive Administrator</small><br>
-                        <a href data-toggle="modal" data-target="#breaModal" class="viewbiolink"><small class="member">View Brea's Bio and Contact Information</small></a>
-                    </h4>
-                </div>
-
-                <!-- Brea Modal -->
-                <div class="modal fade" id="breaModal" tabindex="-1" role="dialog" aria-labelledby="myModal" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                <figure style="float:left; margin-right:5%; margin-top:2%; margin-bottom:.8%;">
-                                    <img src="img/portfolio/fullsize/LeadersipWebsitePics/BreaCasual.jpg" alt="Brea Edson" style="width:30%;" />
-                                </figure>
-                                <h3 class="modal-title myModalLabel">Brea Edson</h3> <small>Executive Administrator</small>
-                                <br>
-                                <a href="mailto:brea.edson@sageblack.com"><small class="member">Send Brea an E-Mail</small></a>
-                            </div>
-                            <div class="modal-body">
-                                <p class="modal-body-text" style="text-align:left;">Brea performs a wide variety of foundational administrative work including assistance to the President and Vice President, and inclusive support in the Talent Acquisition, Business Development and Human Resources sectors of SAGE Black.<br><br>Her background includes a combination of 13 years in customer service, business administration and management, and event coordinating. She graduated from Metropolitan State University of Denver with a Bachelor of Science degree in business management.<br><br>As a proud Colorado native Brea naturally enjoys being outdoors, spending time with her husband Erik and travelling to beautiful destinations.
-</p>
-                            </div>
-                            <div class="modal-footer">
-                                <a href="https://www.linkedin.com/in/brea-edson-69899a82/" target="_blank"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true" style="float:left; margin-top:2%; margin-left: 0.5%;"></i>                                     </a>
-                                <img src="img/portfolio/fullsize/sageblackmodalfooter.jpg" align="middle">
-                            </div>
-                        </div><!--/modal-content-->
-                    </div><!--modal-dialog-->
-                </div><!--/modal-->
-            </div>
-        </div>
-<br>
-        <div class="container">
-            <div class="row">
-
-              <br>
-              <div class="leader-section-bruce-hr"></div>
-              <br>
-              <br>
-              <div class="col-lg-12 text-center">
-                  <h2 class="section-heading">SAGE Black Executive Leadership</h2>
-                  <hr class="hr-green">
+            <h1>Selected Projects:</h1>
+            <br>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="images/mywins.png"  alt="MyWins">
+                <div class="card-body">
+                  <h1></h1>
+                  <p class="card-text">MyWins is an amateur gaming website that allows users to track their wins and losses. Users can record Foosball, Ping Pong, Kan Jam, Cards, Cornhole and Spikeball scores through a user intuitive website.
                   <br>
+                  <br>
+                  The website app was built with JavaScript, AngularJS, Facebook Oauth, CSS3, and HTML5.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" target="_blank" href="http://mywinsapp.com/"> MyWinsapp.com</button>
+                      <button type="button"  target="_blank" href="https://github.com/JulieDeM/MyWins" class="btn btn-sm btn-outline-secondary">GitHub</button>
+                    </div>
+                    <!-- <small class="text-muted">9 mins</small> -->
+                  </div>
+                </div>
               </div>
-
- <!-- BRUCE SMITH -->
-                <div class="col-lg-4 col-md-6 text-center" id="brucesection" style="margin-left:35%;">
-                    <div class="ih-item image-hover img-opacity square colored effect11 left_to_right " style="background-color:#606060;width:327px;">
-                        <img src="img/portfolio/fullsize/bruce.jpg" alt="Bruce Smith" class="img-1 img-responsive" />
-                    </div>
-                    <h4 class="text-center">Bruce Smith<br>
-                        <small class="member">The Captain</small><br>
-                        <a href data-toggle="modal" data-target="#bruceModal" class="viewbiolink"><small class="member">View Bruce's Bio and Contact Information</small></a>
-                    </h4>
-                </div>
-                <!-- Bruce Modal -->
-                <div class="modal fade" id="bruceModal" tabindex="-1" role="dialog" aria-labelledby="myModal" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                <figure style="float:left; margin-right:5%; margin-top:2%; margin-bottom:.8%;">
-                                    <img src="img/portfolio/fullsize/bruce.jpg" alt="Bruce Smith" style="width:30%;" />
-                                </figure>
-                                <h3 class="modal-title myModalLabel">Bruce Smith</h3> <small>The Captan</small>
-                            </div>
-                            <div class="modal-body">
-                                <p class="modal-body-text" style="text-align:left;">
-As a Founder, Chairman, CEO and Board member with two NYSE, NASDAQ companies and five start-ups his experiences taught him that the mentor role was a critical element to growth and success.  Bruce’s twenty-four corporate years with Xerox, Exxon and Businessland provided the business process development and mentoring skills that enabled him to develop and excel as a field and corporate executive.
-
-<br><br>His training and certification with Vistage International’s CEO development program provided him with process and mentoring skills necessary to contribute to the career development and business success of executives requiring both personal and business mentoring.
-
-<br><br>Bruce leverages his significant success and his serial entrepreneur start-up experience to provide SAGE Black vision and direction. Every team needs a captain.
-</p>
-                            </div>
-                            <div class="modal-footer">
-                                <img src="img/portfolio/fullsize/sageblackmodalfooter.jpg" align="middle">
-                            </div>
-                        </div><!--/modal-content-->
-                    </div><!--modal-dialog-->
-                </div><!--/modal-->
-
-
             </div>
-        </div>
-    </section>
-
-    <section id="openings" class="bg-dark">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading, text-faded">Current Openings on the SAGE Black Team </h2>
-                    <h4 class="text-faded">We are looking for highly talented and motivated team members to help us build foundations for growth
-                        and a strong future.</h4>
-                    <h4 class="text-faded">Due to growth rates over 100%, we are looking for extremely talented Software professionals in Southeast
-                        Denver, Colorado Springs and Northern Virginia that want to join a high growth small business with
-                        the flavor and dynamics of a tech startup but the security of long term programs.</h4>
-                    <hr class="hr-green">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-6 text-left">
-                    <div class="service-box">
-                        <h3>Software Engineers</h3>
-                        <h4><i>Denver, Northern Virginia</i></h4>
-                        <ul>
-                            <li>Mid-level to Principal</li>
-                            <li>Java, AngularJS, Flex, REST, JSON, Git, Oracle, WebLogic</li>
-                            <li>Experience with Automating AngularJS testing with Karma and Jasmine is highly desirable.</li>
-                            <li>Well-versed in the execution of continuous integration and continuous deployment (CI/CD) processes.</li>
-                        </ul>
-                        <br>
-                        <a  class="position-details" href="documents/Software Engineer Qualifications.pdf" target="_blank">Position Details</a>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="images/EaTown.png" alt="Card image cap">
+                <div class="card-body">
+                  <h4>EaTown</h4>
+                  <p class="card-text">Get restaurant recommendations based upon your city search. Technology used: Zomato API, JavaScript, HTML5, and CSS3.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" target="_blank" href="https://first-page-q1-project.firebaseapp.com/index.html">EaTown Website</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary" target="_blank" href="https://github.com/JulieDeM/EaTown-Restaurant-Finder">GitHub</button>
                     </div>
-
-                </div>
-                <div class="col-lg-4 col-md-6 text-left">
-                    <div class="service-box">
-                        <h3>Systems Integration and Test Engineer</h3>
-                        <h4><i>Denver</i></h4>
-                        <ul>
-                            <li>Mid-level to Principal</li>
-                            <li>Work closely with Software Development and Systems Engineering teams to understand full system
-                                capabilities.</li>
-                            <li>Design, develop and execute software system validation procedures.</li>
-                        </ul>
-                        <br>
-                        <a class="position-details" href="documents/Systems Integration & Test Engineer.pdf" target="_blank">Position Details</a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 text-left">
-                    <div class="service-box">
-                        <h3>Managing Principal & Business Development Lead</h3>
-                        <h4><i>Northern Virginia</i></h4>
-                        <ul>
-                            <li>Principal level contributor to initiate operations in Northern Virginia.</li>
-                            <li>Drives full business cycle from opportunity identification through close and delivery of services.</li>
-                            <li>Experience growing consulting services organizations.</li>
-                            <li>Develop, manage, maintain and support team of 10+ technology consultants operating in cloud and
-                                traditional environments.</li>
-                        </ul>
-                        <br>
-                        <a class="position-details" href="documents/Managing Principal Business Development Qualifications.pdf" target="_blank">Position Details</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-6 text-left">
-                    <div class="service-box">
-                        <h3>Chief Mission Operations (CMO)</h3>
-                        <h4><i>Denver</i></h4>
-                        <ul>
-                            <li>End user engagement.</li>
-                            <li>Drives full business cycle from opportunity identification through close and delivery of services.</li>
-                            <li>Ad-hoc support to user community.</li>
-                        </ul>
-                        <br>
-                        <a class="position-details" href="documents/Chief Mission Operations.pdf" target="_blank">Position Details</a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 text-left">
-                    <div class="service-box">
-                        <h3>Systems Engineers</h3>
-                        <h4><i>Denver, Northern Virginia</i></h4>
-                        <ul>
-                            <li>Junior &amp; Senior Levels</li>
-                        </ul>
-                        <br>
-                        <a class="position-details" href="documents/Systems Engineer Qualifications.pdf" target="_blank">Position Details</a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 text-left">
-                    <div class="service-box">
-                        <h3>Cloud Software Engineers</h3>
-                        <h4><i>Denver, Northern Virginia</i></h4>
-
-                        <ul>
-                            <li>Mid-level to Principal</li>
-                            <li>AWS, Oracle, WebLogic, Java, AngularJS, Flex, REST, JSON</li>
-                        </ul>
-                        <br>
-                        <a class="position-details" href="documents/Cloud Software Engineer Qualifications.pdf" target="_blank">Position Details</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">NOTICE </h2>
-                    <hr class="hr-green">
-                    <h4>All information and documentation received will be considered SAGE Black company confidential and used
-                        for the purposes of applicant evaluation and communication. Please do not post classified, confidential
-                        or proprietary information for security reasons.</h4>
-                    <h4>SAGE Black is an Equal Opportunity/Affirmative Action Employer. All qualified applicants will receive
-                        consideration for employment without regard to race, color, religion, sex, national origin, age,
-                        protected veteran status, or disability status.</h4>
-                    <hr class="hr-green">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- BENEFITS SECTION -->
-    <section class="bg-sage" id="benefits">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-lg-offset-1 text-left">
-                    <h2 class="section-heading text-faded text-center">Benefits</h2>
-                    <hr class="hr-green">
-                    <p class="text-faded">SAGE Black provides highly competitive compensation packages.</p>
-                    <ul class="text-faded">
-                        <li>Anthem BlueCross BlueShield Healthcare <a href="documents/HealthCoverage.pdf" target="_blank">Health Coverage Details</a></li>
-                        <li>Dental through Delta Dental <a href="documents/DentalCoverage.pdf" target="_blank">Dental Coverage Details</a></li>
-                        <li>Vision through Vision Service Plan <a href="documents/VisionCoverage.pdf" target="_blank">Vision Coverage Details</a></li>
-                        <li>$30K life insurance policy through Anthem <a href="documents/LifeCoverage.pdf" target="_blank">Life Coverage Details</a></li>
-                        <li>LTD through Northwestern Mutual</li>
-                        <li>401k with a 3% contribution from SAGE Black</li>
-                    </ul>
-                    <p class="text-faded">SAGE Black pays 100% of insurance premiums for the employee and their family.</p>
-                    <p class="text-faded">SAGE Black is a young and growing company and team bonus programs are available and continue to evolve
-                        to suit the business climate. We look at SAGE Black as a 10 year old “startup” company with opportunities
-                        for teammates to grow into ownership and bonus opportunities.</p>
-                </div>
-                <div class="col-lg-4 col-lg-offset-1 text-center">
-                    <img src="img/portfolio/fullsize/working.jpg" id="benefits-img" alt="employee benefits" >
-                    <!-- <img src="img/portfolio/fullsize/benefits.jpg" id="benefits-img" alt="employee benefits" > -->
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- SAGE BLACK University SECTION -->
-    <section class="bg-dark" id="sbu">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">SAGE Black University</h2>
-                    <p class=" university-text">SAGE Black University is a budgeted strategic directive focused on developing the SAGE Black team member’s core capabilities through professional and technology education and training.</p>
-                    <hr class="hr-green">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-6 text-center">
-                    <div class="service-box">
-                        <img src="img/portfolio/fullsize/customer.jpg" id="for-the-customer" alt="Office building">
-                        <h3>For the Customer</h3>
-                        <p class="text-muted">SAGE Black customers understand that if they need skills brought into their domain, SAGE Black is
-                            responsive. We put together custom, comprehensive training events that bring our consultants
-                            up to speed quickly. If the customer wishes to send their employees, they are always welcome.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 text-center">
-                    <div class="service-box">
-                        <img src="img/portfolio/fullsize/consultant.jpg" id="consultant-img" alt="Consultant">
-                        <h3>For the Consultant</h3>
-                        <p class="text-muted">Our consultants understand that keeping up on the latest technology trends is important. Our consultants
-                            are afforded ten paid training days per year. SAGE Black University ensures that those days are
-                            utilized to maximize the benefit to the customer, the consultant and to SAGE Black.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 text-center">
-                    <div class="service-box">
-                        <img src="img/portfolio/fullsize/sageblackimgwhite.jpg" id="for-the-company">
-                        <h3>For the Company</h3>
-                        <p class="text-muted">As a company, we understand that a focused investment in our people keeps us competitive. By listening
-                            to the customer’s needs as well as monitoring emerging technologies, we can stay ahead of the
-                            progress curve to ensure our people are ready to deliver when called upon. </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-<!-- CONTACT SECTION -->
-<section id="contact" class="bg-white">
-    <div class="container">
-        <div class="col-lg-8">
-            <div class="row">
-                <div class="col-lg-12  text-center">
-                    <h2 class="section-heading">Contact SAGE Black</h2>
-                    <hr class="hr-green">
-                    <p>Would you like to learn more about SAGE Black and the services we offer? Fantastic - we would love to
-                        hear from you! Give us a call or send us an email and we will get back to you as soon as possible.</p>
-                </div>
-            </div>
-
-
-            <div class="row">
-                <!-- <div class="col-lg-4  text-right"> -->
-                <div class="col-lg-4 information-container  text-left">
-
-                    <!-- <h4 id="SAGE-address">SAGE Black</h4> -->
-                    <a class="contactinfo" href="https://www.google.com/maps/place/9609+Chesapeake+St,+Littleton,+CO+80126/@39.541916,-104.9650237,17z/data=!3m1!4b1!4m5!3m4!1s0x876c83a02d2f97db:0xb6e3b4787932b2d4!8m2!3d39.541916!4d-104.962835" target="_blank"><p><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;  9609 Chesapeake St.<br>Highlands Ranch, CO 80126<br> </p></a>
-                    <a class="contactinfo" style="text-decoration:none;" href="tel:303-807-3565" target="_blank"><p><i class="fa fa-phone" aria-hidden="true"></i>&nbsp; (303) 807-3565</p></a>
-                </div>
-                <div class="col-lg-8 message-people text-center">
-                    <p>Founder & President - Paul Patton<br>
-                        <a href="mailto:paul@sageblack.com"><i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp; paul@sageblack.com</a></p>
-
-                    <p>Director,Talent Management & Engagement – Sean Dougherty<br>
-                        <a href="mailto:sean.dougherty@sageblack.com"><i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp; sean.dougherty@sageblack.com</a></p>
-                </div>
-                <h4 id="follow-us">follow us!</h4>
-                <h5 style="text-align:center;">  <a href="https://www.linkedin.com/company/sage-black-consulting-&-contracting-llc" target="_blank" class="social-icon"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true" ></i></a>
-                  <a href="https://www.facebook.com/SAGEBlackLLC/" target="_blank" class="social-icon"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a>
-                </h5>
-            </div>
-
-        </div>
-        <div class="col-lg-4">
-            <div class="row">
-                <h2 class="section-heading text-center">Send a Message</h2>
-                    <hr class="hr-green">
-                </div>
-                <form action="https://script.google.com/macros/s/AKfycbx3dBJ76D8EyTMSsHprgC1SJ6LRjZGTKhqS0gQ1rslahGt3Pfxe/exec" id="gform" method="post">
-
-                <div id="frmContact">
-                  <div id="mail-status"></div>
-                  <div class="form-group row">
-                    <span id="nameField-info" class="info"></span><br/>
-                    <input type="text" class="form-control" id="nameField" name="name" placeholder="Full Name">
-                  </div>
-                  <div class="form-group row">
-                    <span id="emailField-info" class="info"></span><br/>
-                    <input type="text" class="form-control" id="emailField" name="email" placeholder="E-mail">
-                  </div>
-                  <div class="form-group row">
-                    <span id="subjectField-info" class="info"></span><br/>
-                    <input type="text" class="form-control" id="subjectField" name="subject" placeholder="Subject">
-                  </div>
-                  <div class="form-group row">
-                    <span id="message-info" class="info"></span><br/>
-                    <textarea name="message" id="message" class="form-control" rows="3" rows="6" placeholder="Message"></textarea>
-                  </div>
-                  <div class="form-group row">
-                    <button id="submit" class="btn btn-primary" onClick="sending()">Send</button>
+                    <small class="text-muted">9 mins</small>
                   </div>
                 </div>
-              </form>
-              <div style="display:none;"id="thankyou_message">
-                <h3>Thank you for contacting us at SAGE Black. <br> <br> We will get back to you shortly!</h3>
               </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="images/CyprusDashboard.png" alt="Card image cap">
+                <div class="card-body">
+                  <h4>Cyprus Copper Mugs Dashboard</h4>
+                  <p class="card-text">Client project that pulls Google Analytics and Facebook Insights data into a basic dashboard.
+                    <br>
+                  Technology used: AngularJS, JavaScript, HTML5, CSS3, Facebook Insights API, and Google Analytics API.</p>
+                    <p > Access to Website Private (per request)</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+
+                      <button type="button" class="btn btn-sm btn-outline-secondary" target="_blank" href="https://github.com/JulieDeM/Copper-Mugs-Dashboard">GitHub</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="paris.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h4>Travel Journal</h4>
+                  <p class="card-text">Basic webapp created to keep track of and journal on past travels.
+                  <br /><br />
+                  Technology used: React.js, JavaScript, Firebase realtime database, HTML5, CSS3.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" target="_blank" href="https://github.com/JulieDeM/TravelJournal">GitHub</button>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="images/teashoppe.png" alt="Card image cap">
+                <div class="card-body">
+                  <h4>TeaShoppe</h4>
+                  <p class="card-text">TeaShoppe is a basic shopping cart store.
+                    <br><br>
+                    Technology used: AngularJS, JavaScript, HTML5, and CSS3.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" target="_blank" href="https://github.com/JulieDeM/MeanTEA-Shopping-Website">GitHub</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="images/cat-game.png" alt="Card image cap">
+                <div class="card-body">
+                  <h4>Puzzletastic</h4>
+                  <p class="card-text">Small video game arcade website. Three games were built, one by each team member.
+                    <br><br>
+                    Technology used: Built with Unity3D, knex.js, JavaScript, postgreSQL, HTML5, Facebook oAuth and CSS3.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" target="_blank" href="https://github.com/JulieDeM/Unity-Project">GitHub</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div> -->
 
-    </div>
-    <!-- footer -->
-    <footer class="text-center">
-      <div id="footer-container">
+    </main>
 
-      <hr class="hr-green">
-      <div class="footer-section">
-        <h5>Copyright 2017 SAGE Black | All Rights Reserved</h5>
+    <footer class="text-muted">
+      <div class="container">
+        <p class="float-right">
+          <a href="#">Back to top</a>
+        </p>
+        <div class="socialicons">
+          <span id="sociallinks">
+          <a target="_blank" href="https://github.com/JulieDeM" class=""><i class="fa fa-github-square" aria-hidden="true"></i></a>
+
+          <a target="_blank" href="https://www.linkedin.com/in/juliedemasters"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+
+          <a target="_blank" href="tel:+7202738460"><i class="fa fa-phone" aria-hidden="true"></i></a>
+
+          <a href="mailto:juliekdemasters@gmail.com?subject=Inquiry about services - Portfolio Reference"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+
+          <a target="_blank" href="https://goo.gl/SjZEs5">  <i class="fa fa-id-card-o" aria-hidden="true"></i></a>
+
+          <a target="_blank" href="https://goo.gl/gFR5ij"><i class="fa fa-download" aria-hidden="true"></i></a>
+
+          </span>
+        </div>
+        <!-- <p>New to Bootstrap? <a href="../../">Visit the homepage</a> or read our <a href="../../getting-started/">getting started guide</a>.</p> -->
       </div>
-    </div>
-
     </footer>
-</section>
 
-    <!-- jQuery -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
-    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-
-    <!-- Theme JavaScript -->
-    <script src="js/creative.min.js"></script>
-
-    <!-- Video Control JavaScript -->
-    <script src="js/controls.js"></script>
-
-    <!-- send contact email without popping up email form -->
-    <script src="js/app.js"></script>
-
-    <!-- <script data-cfasync="false" type="text/javascript"
-src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script> -->
-<script data-cfasync="false" type="text/javascript"
-src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
-</body>
-
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- <script src="../../../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../../../dist/js/bootstrap.min.js"></script>
+    <script src="../../../../assets/js/vendor/holder.min.js"></script> -->
+  </body>
 </html>
