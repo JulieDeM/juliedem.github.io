@@ -1,8 +1,19 @@
-var svg = d3.select('#linechart').append("svg").attr('width', 200).attr('height', 300),
-    margin = {top: 20, right: 20, bottom: 30, left: 50},
-    width = +svg.attr("width") - margin.left - margin.right,
-    height = +svg.attr("height") - margin.top - margin.bottom,
-    g = svg.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+// var svg = d3.select('#linechart').append("svg").attr('width', 200).attr('height', 300),
+var margin = {top: 20, right: 20, bottom: 30, left: 50},
+  width = 300,
+  height = 300 ;
+    // g = svg.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+  // var viewBox = d3.select('#linechart').append('viewBox')
+  // .attr('transform', translate('0 0 ' + width + ', ' + height));
+  //
+  // var svg = viewBox.append('svg')
+  // .attr('width', width)
+  // .attr('height', height)
+  // .append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+  var svg = d3.select('#linechart').append('svg').attr('width', 300).attr('height', 300)
+  .append('g')attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 var parseTime = d3.timeParse("%d-%b-%y");
 
@@ -22,6 +33,8 @@ d3.tsv("data.tsv", function(d) {
   return d;
 }, function(error, data) {
   if (error) throw error;
+
+  console.log('data ' + data)
 
   x.domain(d3.extent(data, function(d) { return d.date; }));
   y.domain(d3.extent(data, function(d) { return d.close; }));
