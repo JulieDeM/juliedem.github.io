@@ -7,6 +7,10 @@
     <meta name="description" content="Full Stack Software Developer in greater Denver area.">
     <link rel="shortcut icon" href="images/JulieDeMasters.ico"/>
 
+
+    </script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+
     <title>Julie DeMasters | Full Stack Developer</title>
 
     <!-- Bootstrap core CSS -->
@@ -23,32 +27,32 @@
   <body>
 
     <header>
-      <div class="collapse bg-dark" id="navbarHeader">
+      <div class="collapse bg-light" id="navbarHeader">
         <div class="container">
           <div class="row">
             <div class="col-sm-8 col-md-7 py-4">
-              <h4 class="text-white">About</h4>
+              <h4 class="text-black">About</h4>
               <p class="text-muted">Experience in JavaScript, D3.js, JavaScript, ReactJS, and Vue.js.</p>
             </div>
             <div class="col-sm-4 offset-md-1 py-4">
-              <h4 class="text-white">Contact</h4>
+              <h4 class="text-black">Contact</h4>
               <ul class="list-unstyled">
-                <li><a href="#" class="text-white">GitHub</a></li>
-                <li><a href="#" class="text-white">LinkedIn</a></li>
-                <li><a href="#" class="text-white">Email me</a></li>
+                <li><a href="#" class="text-black">GitHub</a></li>
+                <li><a href="#" class="text-black">LinkedIn</a></li>
+                <li><a href="#" class="text-black">Email me</a></li>
               </ul>
             </div>
           </div>
         </div>
       </div>
-      <div class="navbar navbar-dark bg-dark box-shadow">
+      <div class="navbar navbar-dark bg-white box-shadow">
         <div class="container d-flex justify-content-between">
           <a href="#" class="navbar-brand d-flex align-items-center">
             <img src="JulieDeMasters.ico" style="width:70px; height:70px;" />
-            <strong> Julie DeMasters</strong>
+            <strong class="text-black" style=""> Julie DeMasters</strong>
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon bg-dark"></span>
           </button>
         </div>
       </div>
@@ -79,8 +83,8 @@
             <h1>Selected Projects:</h1>
             <br>
           <div class="row">
-            <div class="col-md-4">
-              <div class="card mb-4 box-shadow">
+            <div class="col-md-4" >
+              <div class="card mb-4 box-shadow" style="border-left: 10px solid darkgreen;">
                 <img class="card-img-top" src="images/mywins.png"  alt="MyWins">
                 <div class="card-body">
                   <h1></h1>
@@ -99,7 +103,7 @@
               </div>
             </div>
             <div class="col-md-4">
-              <div class="card mb-4 box-shadow">
+              <div class="card mb-4 box-shadow" style="border-left: 10px solid darkturquoise;">
                 <img class="card-img-top" src="images/EaTown.png" alt="Card image cap">
                 <div class="card-body">
                   <h4>EaTown</h4>
@@ -109,13 +113,12 @@
                       <button type="button" class="btn btn-sm btn-outline-secondary" target="_blank" href="https://first-page-q1-project.firebaseapp.com/index.html">EaTown Website</button>
                       <button type="button" class="btn btn-sm btn-outline-secondary" target="_blank" href="https://github.com/JulieDeM/EaTown-Restaurant-Finder">GitHub</button>
                     </div>
-                    <small class="text-muted">9 mins</small>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-md-4">
-              <div class="card mb-4 box-shadow">
+              <div class="card mb-4 box-shadow" style="border-left: 10px solid blue;">
                 <img class="card-img-top" src="images/CyprusDashboard.png" alt="Card image cap">
                 <div class="card-body">
                   <h4>Cyprus Copper Mugs Dashboard</h4>
@@ -134,7 +137,7 @@
             </div>
 
             <div class="col-md-4">
-              <div class="card mb-4 box-shadow">
+              <div class="card mb-4 box-shadow" style="border-left: 10px solid darkturquoise;">
                 <img class="card-img-top" src="paris.jpg" alt="Card image cap">
                 <div class="card-body">
                   <h4>Travel Journal</h4>
@@ -151,7 +154,7 @@
               </div>
             </div>
             <div class="col-md-4">
-              <div class="card mb-4 box-shadow">
+              <div class="card mb-4 box-shadow" style="border-left: 10px solid blue;">
                 <img class="card-img-top" src="images/teashoppe.png" alt="Card image cap">
                 <div class="card-body">
                   <h4>TeaShoppe</h4>
@@ -167,7 +170,7 @@
               </div>
             </div>
             <div class="col-md-4">
-              <div class="card mb-4 box-shadow">
+              <div class="card mb-4 box-shadow" style="border-left: 10px solid darkgreen;">
                 <img class="card-img-top" src="images/cat-game.png" alt="Card image cap">
                 <div class="card-body">
                   <h4>Puzzletastic</h4>
@@ -231,7 +234,95 @@
           </div>
         </div>
       </div> -->
+      <div style="width:100%; padding-left: 0; padding-right:0;">
+        <hr style="stroke-width: 8px; color: lightgrey;" />
 
+
+
+        <h1>About me told through D3.js:</h1>
+      </div>
+      <div class=" bg-light" width="100%;">
+        <div class="container">
+            <br>
+          <div class="row">
+            <div class="col-md-4" >
+              <div class="card mb-4 box-shadow" style="border-left: 10px solid darkgreen;">
+                <div id="#linechart">
+
+                </div>
+                <!-- <div class="card-body">
+                  <h1></h1>
+                  <p class="card-text">MyWins is an amateur gaming website that allows users to track their wins and losses. Users can record Foosball, Ping Pong, Kan Jam, Cards, Cornhole and Spikeball scores through a user intuitive website.
+                  <br>
+                  <br>
+                  The website app was built with JavaScript, AngularJS, Facebook Oauth, CSS3, and HTML5.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+
+                     <small class="text-muted">9 mins</small>
+                  </div>
+                </div> -->
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow" style="border-left: 10px solid darkturquoise;">
+                <img class="card-img-top" src="images/EaTown.png" alt="Card image cap">
+                <!-- <div class="card-body">
+                  <h4>EaTown</h4>
+                  <p class="card-text">Get restaurant recommendations based upon your city search. Technology used: Zomato API, JavaScript, HTML5, and CSS3.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                  </div>
+                </div> -->
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow" style="border-left: 10px solid blue;">
+                <img class="card-img-top" src="images/CyprusDashboard.png" alt="Card image cap">
+                <!-- <div class="card-body"> -->
+                  <!-- <h4>Cyprus Copper Mugs Dashboard</h4>
+                  <p class="card-text">Client project that pulls Google Analytics and Facebook Insights data into a basic dashboard.
+                    <br>
+                  Technology used: AngularJS, JavaScript, HTML5, CSS3, Facebook Insights API, and Google Analytics API.</p>
+                    <p > Access to Website Private (per request)</p> -->
+
+                <!-- </div> -->
+              </div>
+            </div>
+
+
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow" style="border-left: 10px solid blue;">
+                <img class="card-img-top" src="images/teashoppe.png" alt="Card image cap">
+                <div class="card-body">
+                  <h4>TeaShoppe</h4>
+                  <p class="card-text">TeaShoppe is a basic shopping cart store.
+                    <br><br>
+                    Technology used: AngularJS, JavaScript, HTML5, and CSS3.</p>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-md-8">
+              <div class="card mb-6 box-shadow" style="border-left: 10px solid darkgreen;">
+                <img class="card-img-top" src="images/cat-game.png" alt="Card image cap">
+                <div class="card-body">
+                  <h4>Puzzletastic</h4>
+                  <p class="card-text">Small video game arcade website. Three games were built, one by each team member.
+                    <br><br>
+                    Technology used: Built with Unity3D, knex.js, JavaScript, postgreSQL, HTML5, Facebook oAuth and CSS3.</p>
+
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+      <!-- <div class="album py-5 bg-light">
+        <div id="worldmap">
+
+        </div>
+      </div> -->
     </main>
 
     <footer class="text-muted">
@@ -262,6 +353,13 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+
+<script type="text/javascript" src="js/globalview.js"></script>
+<script type="text/javascript" src="js/data.tsv"></script>
+
+<script type="text/javascript" src="js/linechartreusable.js"></script>
+
+
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
